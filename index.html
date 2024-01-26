@@ -5,9 +5,49 @@
     <title>
       Tic Tac Toe
     </title>
+    <style>
+        /* .game-container {
+                display: flex;
+                flex-wrap: wrap;
+            } */
+
+        /* .game-row {
+                display: inline-block;
+
+            } */
+
+        .game-spot {
+                min-height: 100px;
+                max-height: 100px;
+                min-width: 100px;
+                max-width: 100px;
+                border: 2px black solid;
+                box-sizing: border-box;
+
+            }
+
+    </style>
     </head>
     <body>
         <p>i hate everything</p>
+        <div class="game-container">
+            <div class="game-row">
+                <div id="spot-1" class="game-spot" style="background-color: #FF2D00"></div>
+                <div id="spot-2" class="game-spot" style="background-color: #e07f0f"></div>
+                <div id="spot-3" class="game-spot" style="background-color: #fde82a"></div>
+            </div>
+            <div class="game-row">
+                <div id="spot-4" class="game-spot" style="background-color: #50e93c"></div>
+                <div id="spot-5" class="game-spot" style="background-color: #4778fd"></div>
+                <div id="spot-6" class="game-spot" style="background-color: #d309da"></div>
+            </div>
+            <div class="game-row">
+                <div id="spot-7" class="game-spot" style="background-color: #ff95ac"></div>
+                <div id="spot-8" class="game-spot" style="background-color: #58ac82"></div>
+                <div id="spot-9" class="game-spot" style="background-color: #91c4f3"></div>
+            </div>
+        </div>
+            
         <script src='index.js'></script>
     </body>
 </html>

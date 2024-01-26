@@ -3,3 +3,9 @@ p {
     color: blue;
   
   }
+
+.game-spot {
+  min-height: '20px';
+  min-width: '20px';
+  border: 2px black solid;
+}
